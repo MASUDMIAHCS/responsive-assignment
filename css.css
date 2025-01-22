@@ -336,6 +336,9 @@
     margin-top: 80px;
     margin-bottom: 60px;
 }
+#id1{
+    display: none;
+}
 @media screen and (max-width: 576px) {
     .parrent1{
         flex-direction: column-reverse;
@@ -362,7 +365,7 @@
         flex-direction: column;
         gap:30px;
     }
-    .navbar{
+    .anchor,.contact{
         display: none;
     }
     .first{
@@ -374,5 +377,20 @@
     }
     .card1,.card2,.card3{
         margin: 0px 10px;
+    }
+    .anchor,.contact{
+        display: none;
+    }
+    #id1{
+        display: block;
+        padding: 5px;
+        font-size: 30px;
+    }
+    .navbar{
+        border-bottom: 0.5px solid #FEA301;
+        padding: 5px;
+    }
+    *{
+        margin: 0;
     }
 }
