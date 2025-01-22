@@ -339,6 +339,7 @@
 @media screen and (max-width: 576px) {
     .parrent1{
         flex-direction: column-reverse;
+        margin: 0px 10px;
     }
     .text{
         display: flex;
@@ -369,6 +370,9 @@
     }
     .sec{
         grid-template-columns: repeat(2, 1fr);
+        margin: 0 10px;
     }
-    
+    .card1,.card2,.card3{
+        margin: 0px 10px;
+    }
 }
