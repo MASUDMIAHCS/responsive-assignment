@@ -199,7 +199,6 @@
     background-color:#202020;
     justify-content: space-around;
     padding: 50px;
-    margin-top: 50px;
 }
 .anchor2{
     display: flex;
@@ -251,7 +250,6 @@
 }
 
 .same{
-    border: 5px solid black;
     border-radius: 16px;
     background-color: #FFFFFF;
 }
@@ -259,15 +257,19 @@
     background-image: url('B11-A2-Kids-School/assets/bg.png'), linear-gradient(0deg, rgba(254, 163, 1, 0.30) 0%, rgba(255, 255, 255, 0.30) 100%);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .sec{
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 5px;
+    gap: 15px;
 }
 .first{
+    max-height: 745px;
     grid-row: span 3;
 }
 .same>img{
@@ -299,12 +301,14 @@
 
 
 .fun{
+    padding: 5px;
     color:#000000;
     font-weight: 700;
     font-size: 1.5rem;
     text-align: center;
 }
 .beautiful{
+    padding: 5px;
     color:#666666;
     font-weight: 500;
     font-size: 1rem;
@@ -315,6 +319,22 @@
     font-weight: 700;
     font-size: 1rem;
     text-align: center;
+}
+.story{
+    color:#000000;
+    font-weight: 700;
+    font-size: 2.875rem;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.view{
+    color:#FFFFFF;
+    background-color: #111111;
+    padding: 10px 20px;
+    border-radius: 12px;
+    margin-top: 80px;
+    margin-bottom: 60px;
 }
 @media screen and (max-width: 576px) {
     .parrent1{
